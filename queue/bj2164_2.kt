@@ -4,7 +4,7 @@ import java.util.*
 
 
 /*
-백준 2146 카드2
+백준 2146 카드2 LinkedList사용
  */
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val queue: Queue<Int> = LinkedList<Int>()
