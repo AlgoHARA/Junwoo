@@ -7,7 +7,6 @@ import java.io.InputStreamReader
 
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val n = readLine().toInt()
-
     val list = mutableListOf<Int>()
     list.add(0)
     list.add(1)
@@ -16,5 +15,4 @@ fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
         list.add((list[i - 1] + list[i - 2]) % 15746)
     }
     print(list[n])
-
 }
