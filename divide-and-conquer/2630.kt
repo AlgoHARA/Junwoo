@@ -6,7 +6,7 @@ import java.io.InputStreamReader
  */
 
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
-    val n = readLine().toInt()
+    val n = readLine().toInt() // 이 문제에서는 무조건 
     val paper = Array(n) { IntArray(n) }
     var blue = 0
     var white = 0
