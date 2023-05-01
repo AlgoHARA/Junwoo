@@ -5,6 +5,7 @@ import java.io.InputStreamReader
 2667 단지번호 붙이기_dfs
  */
 
+
 fun main() = with(BufferedReader(InputStreamReader(System.`in`))) {
     val dx = listOf(1, -1, 0, 0)
     val dy = listOf(0, 0, 1, -1)
